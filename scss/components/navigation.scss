@@ -101,15 +101,6 @@
 }
 
 @media screen and ( max-width: 1024px ) {
-.hamburger-button {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  line-height: 1em;
-  display: block;
-  outline: none;
-}
-
 .nav-container {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -121,78 +112,6 @@
   padding: 5%;
   min-height: 50px;
 }
-
-.mobile-nav-background-container {
-  top: 0;
-  left: 0;
-  z-index: 7;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.mobile-nav-overlay {
-  background-color: #333333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 8;
-
-  ul {
-    padding-left: 0px;
-
-    li {
-      margin-bottom: 50px;
-      line-height: 1.4em;
-      list-style: none;
-
-      a {
-        text-decoration: none;
-
-        h3 {
-          font-weight: $text-weight-regular;
-        }
-      }
-    }
-  }
-}
-
-.mobile-nav-overlay hr {
-  color: #eee;
-  border: none;
-  height: 1px;
-  background-color: #fff;
-}
-
-.mobile-nav-container {
-  padding: 20%;
-  text-align: center;
-
-  h3 {
-    color: white;
-    margin: 0;
-    font-size: calc(24px + (28 - 24) * ((100vw - 300px) / (1600 - 300)));
-  }
-
-  h6 {
-    color: #FFF;
-    letter-spacing: 4px;
-    font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (1600 - 300)));
-
-    &:after {
-      content: "";
-      display: block;
-      width: 100%;
-      padding-top: 15px;
-      border-bottom: 1px solid #474747;
-    }
-  }
 
   .social-media-container {
     margin: 0;
@@ -207,27 +126,8 @@
   }
 }
 
-.mobile-menu-close {
-  right: 0;
-  top: 0;
-  position: absolute;
-  margin: 10% 10% 0% 0%;
-}
+// Small LAPTOP
 
-.mobile-nav-logo {
-  left: 0;
-  top: 0;
-  position: absolute;
-  margin: 10% 0 0 10%;
-}
+@media (min-width: 1025px) and ( max-width: 1366px ) {
 
-.internal-nav-bar {
-  a {
-    font-weight: $text-weight-regular;
-  }
-}
-
-.margin-outside-large {
-  margin: 0 30px 0 30px;
-}
 }
