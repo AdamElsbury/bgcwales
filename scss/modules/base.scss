@@ -1,0 +1,19 @@
+// Variables - Colours
+
+$color-red: #E01A1A;
+$color-teal: #05A8AA;
+$color-darkblue: #011627;
+$color-cobalt: #111111;
+$color-white: #FFF;
+
+
+// Typography
+
+$text-primary: 'Lato', sans-serif;
+$text-header: 'Poppins', sans-serif;
+$text-weight-light: 300;
+$text-weight-regular: 400;
+$text-weight-semi-bold: 600;
+$text-weight-bold: 700;
+
+$text-size-body: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
