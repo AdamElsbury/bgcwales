@@ -22,7 +22,7 @@ body {
 
 /* [Margin 0 auto] */
 
-.margin-o-auto {
+.margin-0-auto {
   margin: 0 auto;
   display: block;
 }
@@ -293,7 +293,7 @@ Apply specific width to elements.
 /* Make elements inline block */
 
 .inline-block {
-  display: inline-block !important;
+  display: inline-block;
 }
 /*
 =================================================
@@ -612,11 +612,15 @@ vertically on devices smaller than 501px.
 .order-8-mobile {
   order: 8;
 }
+
+.inline-block-reset-mobile-only {
+  display: block;
+}
 }
 
 /* Text alignments */
 
-@media screen and ( max-width: 720px ) {
+@media screen and ( max-width: 600px ) {
   .text-center-mobile-only {
     text-align: center;
   }
@@ -631,7 +635,7 @@ vertically on devices smaller than 501px.
 }
 
 /*[GUTTERS]*/
-@media screen and ( max-width: 720px ) {
+@media screen and ( max-width: 600px ) {
 .small-gutter {
   padding-left: 5%;
   padding-right: 5%;
@@ -655,7 +659,7 @@ vertically on devices smaller than 501px.
 
 /* MARGINS */
 
-@media screen and ( max-width: 720px ) {
+@media screen and ( max-width: 600px ) {
 .margin, .margin-mobile-only {
   margin: 1em;
 }
@@ -791,7 +795,7 @@ vertically on devices smaller than 501px.
 =================================================
 */
 
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
   .grid-row {
     margin: 0 0 0 -1rem;
   }
@@ -834,7 +838,7 @@ vertically on devices smaller than 501px.
 
 /* Padding and margin values */
 
-@media ( min-width: 720px ) and ( max-width: 1024px ) {
+@media ( min-width: 601px ) and ( max-width: 1024px ) {
 .margin, .margin-tablet-only {
   margin: 1.5em;
 }
@@ -924,6 +928,15 @@ vertically on devices smaller than 501px.
 .padding-tablet-only {
   padding: 5%;
 }
+
+.padding-left-large-tablet-only {
+  padding-left: 10%;
+}
+
+.padding-right-large-tablet-only {
+  padding-right: 10%;
+}
+
 
 .padding-small-tablet-only {
   padding: 3%;

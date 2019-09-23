@@ -1,1 +1,14 @@
+// icons
 
+.hero-svg {
+  width: auto;
+  height: auto;
+  max-width: 12%;
+}
+
+// Mobile
+@media screen and ( max-width: 600px ) {
+  .hero-svg {
+    max-width: 15%;
+  }
+}

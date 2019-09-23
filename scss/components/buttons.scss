@@ -22,7 +22,6 @@
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
-  min-height: 50px;
   min-width: 150px;
   outline: none;
   cursor: pointer;
@@ -37,8 +36,8 @@
 
 .btn-secondary {
   font-family: $text-header;
-  font-size: 14px;
-  letter-spacing: 0;
+  font-size: 11px;
+  letter-spacing: 2px;
   background-color: transparent;
   border-radius: 0 37px 37px 37px;
   border: 3px solid $color-red;
@@ -49,7 +48,6 @@
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
-  min-height: 50px;
   min-width: 150px;
   outline: none;
   cursor: pointer;
@@ -101,36 +99,18 @@
 
 // Mobile
 
-@media screen and ( max-width: 720px ) {
+@media screen and ( max-width: 600px ) {
   .btn-primary {
-    font-size: 13px;
+    font-size: 10px;
     min-height: 40px;
     min-width: 130px;
     font-weight: $text-weight-regular;
   }
 
   .btn-secondary {
-    font-size: 13px;
+    font-size: 10px;
     min-height: 40px;
     min-width: 130px;
-    font-weight: $text-weight-regular;
-  }
-}
-
-// Tablet
-
-@media (min-width: 721px) and ( max-width: 1024px ) {
-  .btn-primary {
-    font-size: 15px;
-    min-height: 45px;
-    min-width: 135px;
-    font-weight: $text-weight-regular;
-  }
-
-  .btn-secondary {
-    font-size: 15px;
-    min-height: 45px;
-    min-width: 135px;
     font-weight: $text-weight-regular;
   }
 }

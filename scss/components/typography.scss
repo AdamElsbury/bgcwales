@@ -1,0 +1,113 @@
+// Typography
+
+body {
+  font-family: $text-primary;
+  font-weight: $text-weight-regular;
+  font-size: $text-size-body;
+  color: $color-cobalt;
+}
+
+li {
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: $color-cobalt;
+  font-family: $text-primary;
+}
+
+h1 {
+  color: $color-white;
+  font-size: calc(29px + (45 - 29) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 700;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-header;
+
+  &:after {
+    content: "";
+    width: 30%;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    padding-top: 1rem;
+  }
+}
+
+h2 {
+  color: $color-cobalt;
+  font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 600;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-header;
+}
+
+.hero-h2 {
+  color: $color-white;
+  font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 400;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-primary;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: $color-cobalt;
+  font-family: $text-header;
+}
+
+h4 {
+  font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: $color-cobalt;
+  font-family: $text-header;
+}
+
+h5 {
+  font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  color: $color-cobalt;
+  font-family: $text-header;
+}
+
+h6 {
+  color: $color-cobalt;
+  font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-header;
+}
+
+// Small section headers
+
+.small-header {
+  color: $color-cobalt;
+  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 3px;
+}
+
+// Large li text
+
+.large-li {
+
+  li {
+  font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
+  margin-bottom: .5em;
+  }
+}
+
+// Small header p reset
+
+.small-header-p {
+  color: $color-cobalt;
+  font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 3px;
+}
+
+// Mobile fix for the h1 after
+
+@media screen and ( max-width: 1024px ) {
+  h1 {
+    &:after {
+      margin: 0 auto;
+      margin-bottom: 1.5rem;
+    }
+  }
+}

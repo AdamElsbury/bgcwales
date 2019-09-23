@@ -4,9 +4,11 @@
 
 // Templates
 
+@import "templates/header";
 
 // Components
 
 @import "components/navigation";
 @import "components/img";
-@import "components/buttons"
+@import "components/buttons";
+@import "components/typography"
