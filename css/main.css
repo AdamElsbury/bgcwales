@@ -272,5 +272,76 @@ h6 {
   h1:after {
     margin: 0 auto;
     margin-bottom: 1.5rem; } }
+.image-grid {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  justify-content: space-around;
+  line-height: 30px; }
+
+.image-grid-col {
+  color: white;
+  flex: 1 0 auto;
+  height: auto; }
+  .image-grid-col:before {
+    content: '';
+    float: left;
+    padding-top: 100%; }
+
+.grid-image-1 {
+  background-image: url("../assets/img/grid-image-1.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-2 {
+  background-image: url("../assets/img/grid-image-2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-3 {
+  background-image: url("../assets/img/grid-image-3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-4 {
+  background-image: url("../assets/img/grid-image-4.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-5 {
+  background-image: url("../assets/img/grid-image-5.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-6 {
+  background-image: url("../assets/img/grid-image-6.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-7 {
+  background-image: url("../assets/img/grid-image-7.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-8 {
+  background-image: url("../assets/img/grid-image-8.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-9 {
+  background-image: url("../assets/img/grid-image-9.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.grid-image-10 {
+  background-image: url("../assets/img/grid-image-10.jpg");
+  background-size: cover;
+  background-position: center; }
 
 /*# sourceMappingURL=main.css.map */
