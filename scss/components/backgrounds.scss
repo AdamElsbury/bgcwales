@@ -3,3 +3,11 @@
 .teal-background {
   background-color: $color-teal;
 }
+
+// Image underlay for who are we section
+
+.bgc-who-background {
+  background-image: url("../assets/img/who-bg-image.jpg");
+  background-size: contain;
+  background-position: center;
+}

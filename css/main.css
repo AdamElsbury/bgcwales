@@ -97,7 +97,8 @@ header {
 .hero-svg {
   width: auto;
   height: auto;
-  max-width: 12%; }
+  max-width: 12%;
+  max-height: 70px; }
 
 .aside-text-svg {
   width: auto;
@@ -109,6 +110,11 @@ header {
   height: auto;
   max-width: 90%; }
 
+.aside-text-svg-70 {
+  width: auto;
+  height: auto;
+  max-width: 70%; }
+
 .external-link-svg {
   width: auto;
   height: 0.8em; }
@@ -119,6 +125,21 @@ header {
 
   .aside-text-svg-90 {
     max-width: 80%;
+    margin: 0 auto;
+    display: block; }
+
+  .aside-text-svg-70 {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block; } }
+@media (min-width: 601px) and (max-width: 1024px) {
+  .aside-text-svg-90 {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block; }
+
+  .aside-text-svg-70 {
+    max-width: 60%;
     margin: 0 auto;
     display: block; } }
 .button-reset {
@@ -378,5 +399,10 @@ h6 {
 
 .teal-background {
   background-color: #05A8AA; }
+
+.bgc-who-background {
+  background-image: url("../assets/img/who-bg-image.jpg");
+  background-size: contain;
+  background-position: center; }
 
 /*# sourceMappingURL=main.css.map */
