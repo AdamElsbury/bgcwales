@@ -48,17 +48,19 @@ h2 {
 }
 
 h3 {
-  font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(24px + (38 - 24) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   color: $color-cobalt;
   font-family: $text-header;
 }
 
 h4 {
-  font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: $color-cobalt;
+  color: $color-teal;
   font-family: $text-header;
+  font-weight: $text-weight-bold;
+  letter-spacing: 2px;
 }
 
 h5 {

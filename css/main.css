@@ -99,6 +99,11 @@ header {
   height: auto;
   max-width: 12%; }
 
+.aside-text-svg {
+  width: auto;
+  height: auto;
+  max-width: 100%; }
+
 @media screen and (max-width: 600px) {
   .hero-svg {
     max-width: 15%; } }
@@ -231,16 +236,18 @@ h2 {
   margin-bottom: 1em; }
 
 h3 {
-  font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(24px + (38 - 24) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   color: #111111;
   font-family: "Poppins", sans-serif; }
 
 h4 {
-  font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #111111;
-  font-family: "Poppins", sans-serif; }
+  color: #05A8AA;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px; }
 
 h5 {
   font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));

@@ -770,6 +770,10 @@ vertically on devices smaller than 501px.
   padding-right: 8%;
 }
 
+.padding-reset-right-mobile-only {
+  padding-right: 0;
+}
+
 
 /* Padding resets */
 
@@ -941,6 +945,11 @@ vertically on devices smaller than 501px.
 .padding-small-tablet-only {
   padding: 3%;
 }
+
+.padding-reset-right-tablet-only {
+  padding-right: 0;
+}
+
 
 /* Text alignment */
 

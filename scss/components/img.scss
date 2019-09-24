@@ -6,6 +6,13 @@
   max-width: 12%;
 }
 
+.aside-text-svg {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+
+}
+
 // Mobile
 @media screen and ( max-width: 600px ) {
   .hero-svg {
