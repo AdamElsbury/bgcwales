@@ -964,6 +964,10 @@ vertically on devices smaller than 501px.
   padding-right: 0;
 }
 
+.padding-reset-horizontal-tablet-only {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 /* Text alignment */
 
