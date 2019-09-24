@@ -104,6 +104,10 @@ header {
   height: auto;
   max-width: 100%; }
 
+.external-link-svg {
+  width: auto;
+  height: 0.8em; }
+
 @media screen and (max-width: 600px) {
   .hero-svg {
     max-width: 15%; } }
@@ -261,10 +265,13 @@ h6 {
   margin: 1.5% 0 1.5% 0;
   font-family: "Poppins", sans-serif; }
 
-.small-header {
-  color: #111111;
-  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
-  letter-spacing: 3px; }
+.white-text-reset {
+  color: #FFF; }
+
+.stats-header {
+  color: #011627;
+  font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-family: "Poppins", sans-serif; }
 
 .large-li li {
   font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
@@ -350,5 +357,16 @@ h6 {
   background-image: url("../assets/img/grid-image-10.jpg");
   background-size: cover;
   background-position: center; }
+
+.external-link-anchor {
+  font-size: 0.8em;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  color: #011627;
+  font-weight: 700;
+  text-decoration: none; }
+
+.teal-background {
+  background-color: #05A8AA; }
 
 /*# sourceMappingURL=main.css.map */

@@ -77,12 +77,18 @@ h6 {
   font-family: $text-header;
 }
 
-// Small section headers
+// Color resets
 
-.small-header {
-  color: $color-cobalt;
-  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
-  letter-spacing: 3px;
+.white-text-reset {
+  color: #FFF;
+}
+
+// Stat headers
+
+.stats-header {
+  color: $color-darkblue;
+  font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-family: $text-header;
 }
 
 // Large li text

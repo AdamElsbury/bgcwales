@@ -519,6 +519,10 @@ vertically on devices smaller than 501px.
   flex-direction: row !important;
 }
 
+.grid-flex-wrap {
+  flex-wrap: wrap;
+}
+
 .grid-col-20-reset-mobile {
   flex: none !important;
   width: 10% !important;
@@ -526,6 +530,12 @@ vertically on devices smaller than 501px.
 
 .grid-col-reset-mobile {
   flex: none;
+}
+
+.grid-col-reset-mobile-50 {
+  flex: none;
+  width: 50%;
+  margin: 0 !important;
 }
 }
 
@@ -772,6 +782,10 @@ vertically on devices smaller than 501px.
 
 .padding-reset-right-mobile-only {
   padding-right: 0;
+}
+
+.padding-vertical-mobile-only {
+  padding: 5% 0 5% 0;
 }
 
 
