@@ -104,13 +104,23 @@ header {
   height: auto;
   max-width: 100%; }
 
+.aside-text-svg-90 {
+  width: auto;
+  height: auto;
+  max-width: 90%; }
+
 .external-link-svg {
   width: auto;
   height: 0.8em; }
 
 @media screen and (max-width: 600px) {
   .hero-svg {
-    max-width: 15%; } }
+    max-width: 15%; }
+
+  .aside-text-svg-90 {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block; } }
 .button-reset {
   background: none;
   border: none; }

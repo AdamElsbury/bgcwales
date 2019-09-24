@@ -12,6 +12,12 @@
   max-width: 100%;
 }
 
+.aside-text-svg-90 {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+}
+
 // External link
 
 .external-link-svg {
@@ -23,5 +29,11 @@
 @media screen and ( max-width: 600px ) {
   .hero-svg {
     max-width: 15%;
+  }
+
+  .aside-text-svg-90 {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
   }
 }

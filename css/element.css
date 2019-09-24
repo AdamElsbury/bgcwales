@@ -806,6 +806,15 @@ vertically on devices smaller than 501px.
 .padding-remove-mobile {
   padding: 0% !important;
 }
+
+.padding-reset-right-mobile-only {
+  padding-right: 0;
+}
+
+.padding-reset-left-mobile-only {
+  padding-left: 0;
+}
+
 }
 /*
 =================================================
@@ -962,6 +971,10 @@ vertically on devices smaller than 501px.
 
 .padding-reset-right-tablet-only {
   padding-right: 0;
+}
+
+.padding-reset-left-tablet-only {
+  padding-left: 0;
 }
 
 .padding-reset-horizontal-tablet-only {
