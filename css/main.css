@@ -115,6 +115,12 @@ header {
   height: auto;
   max-width: 70%; }
 
+.numbered-svg {
+  width: auto;
+  height: auto;
+  max-width: 15%;
+  max-height: 47px; }
+
 .external-link-svg {
   width: auto;
   height: 0.8em; }
