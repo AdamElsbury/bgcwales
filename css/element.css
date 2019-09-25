@@ -968,6 +968,10 @@ vertically on devices smaller than 501px.
   padding-right: 10%;
 }
 
+.padding-top-tablet-only {
+  padding-top: 5%;
+}
+
 
 .padding-small-tablet-only {
   padding: 3%;
