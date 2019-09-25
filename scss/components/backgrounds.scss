@@ -1,10 +1,14 @@
-// Teal background
+// Color background
 
 .teal-background {
   background-color: $color-teal;
 }
 
-// Image underlay for who are we section
+.darkblue-background {
+  background-color: $color-darkblue;
+}
+
+// Image backgrounds
 
 .bgc-who-background {
   background-image: url("../assets/img/who-bg-image.jpg");

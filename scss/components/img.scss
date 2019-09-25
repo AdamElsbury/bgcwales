@@ -19,6 +19,13 @@
   max-width: 50%;
 }
 
+.aside-text-svg-60 {
+  width: auto;
+  height: auto;
+  max-width: 60%;
+}
+
+
 .aside-text-svg-90 {
   width: auto;
   height: auto;
@@ -38,12 +45,27 @@
   max-height: 47px;
 }
 
+.above-text-svg {
+  width: auto;
+  height: auto;
+  max-width: 30%;
+}
+
 
 // External link
 
 .external-link-svg {
   width: auto;
   height: 0.8em;
+}
+
+// Social media links
+
+.social-media-svg {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 35px;
 }
 
 // Mobile

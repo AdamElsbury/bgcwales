@@ -1,0 +1,26 @@
+// Container
+
+.overlap-container {
+  background-color: $color-teal;
+  color: #FFF;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 60%;
+  bottom: -125px;
+  position: absolute;
+  z-index: 5;
+  padding: 2%;
+}
+
+// Padding values for container sections
+
+.padding-overlap-container-above {
+  padding-bottom: 15%;
+}
+
+.padding-overlap-container-below {
+  padding-top: 15%;
+}

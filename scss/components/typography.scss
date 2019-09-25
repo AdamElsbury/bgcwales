@@ -83,6 +83,10 @@ h6 {
   color: #FFF;
 }
 
+.teal-text-reset {
+  color: $color-teal;
+}
+
 // Stat headers
 
 .stats-header {
@@ -107,6 +111,15 @@ h6 {
   color: $color-cobalt;
   font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 3px;
+}
+
+// Small heading footer
+
+.small-header-h4 {
+  color: $color-teal;
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 2px;
+  font-weight: $text-weight-semi-bold;
 }
 
 // Mobile fix for the h1 after

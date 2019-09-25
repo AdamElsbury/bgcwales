@@ -110,6 +110,11 @@ header {
   height: auto;
   max-width: 50%; }
 
+.aside-text-svg-60 {
+  width: auto;
+  height: auto;
+  max-width: 60%; }
+
 .aside-text-svg-90 {
   width: auto;
   height: auto;
@@ -126,9 +131,20 @@ header {
   max-width: 15%;
   max-height: 47px; }
 
+.above-text-svg {
+  width: auto;
+  height: auto;
+  max-width: 30%; }
+
 .external-link-svg {
   width: auto;
   height: 0.8em; }
+
+.social-media-svg {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 35px; }
 
 @media screen and (max-width: 600px) {
   .hero-svg {
@@ -319,6 +335,9 @@ h6 {
 .white-text-reset {
   color: #FFF; }
 
+.teal-text-reset {
+  color: #05A8AA; }
+
 .stats-header {
   color: #011627;
   font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
@@ -332,6 +351,12 @@ h6 {
   color: #111111;
   font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 3px; }
+
+.small-header-h4 {
+  color: #05A8AA;
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 2px;
+  font-weight: 600; }
 
 @media screen and (max-width: 1024px) {
   h1:after {
@@ -420,9 +445,32 @@ h6 {
 .teal-background {
   background-color: #05A8AA; }
 
+.darkblue-background {
+  background-color: #011627; }
+
 .bgc-who-background {
   background-image: url("../assets/img/who-bg-image.jpg");
   background-size: contain;
   background-position: center; }
+
+.overlap-container {
+  background-color: #05A8AA;
+  color: #FFF;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 60%;
+  bottom: -125px;
+  position: absolute;
+  z-index: 5;
+  padding: 2%; }
+
+.padding-overlap-container-above {
+  padding-bottom: 15%; }
+
+.padding-overlap-container-below {
+  padding-top: 15%; }
 
 /*# sourceMappingURL=main.css.map */
