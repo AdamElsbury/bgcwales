@@ -442,6 +442,19 @@ h6 {
   font-weight: 700;
   text-decoration: none; }
 
+.footer-anchors {
+  font-size: 0.8em;
+  font-family: "Poppins", sans-serif;
+  color: #FFF;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  transition: all 0.3s; }
+  .footer-anchors:hover {
+    color: #05A8AA; }
+
 .teal-background {
   background-color: #05A8AA; }
 
@@ -461,7 +474,7 @@ h6 {
   margin-right: auto;
   left: 0;
   right: 0;
-  width: 60%;
+  width: 50%;
   bottom: -125px;
   position: absolute;
   z-index: 5;
