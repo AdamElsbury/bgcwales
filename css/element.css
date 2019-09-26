@@ -387,6 +387,10 @@ side it and they will take up the remaining space.
   display: flex;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }
