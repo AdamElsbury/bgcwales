@@ -480,7 +480,6 @@ h6 {
   width: 50%;
   bottom: -125px;
   position: absolute;
-  z-index: 5;
   padding: 2%; }
 
 .padding-overlap-container-above {
@@ -516,7 +515,7 @@ h6 {
   max-height: 100vh;
   padding: 5%;
   background-color: #011627;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 2;
@@ -524,6 +523,8 @@ h6 {
   .menu-container .button {
     border: none;
     background: none; }
+  .menu-container h1 {
+    font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1600 - 300))); }
   .menu-container h3 {
     font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1600 - 300)));
     color: #FFF; }

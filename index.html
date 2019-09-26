@@ -20,15 +20,15 @@
           <li class="mobile-hide"><a href="#">Who</a></li>
           <li class="mobile-hide"><a href="#">What</a></li>
           <li class="mobile-hide"><a href="#">Why</a></li>
-          <li><a href="#"><button class="btn-primary">GET INVOLVED</button></a></li>
+          <li><button onclick="showMobileMenu()" class="btn-primary">GET INVOLVED</button></li>
         </ul>
       </div>
 
-      <div class="div menu-container">
+      <div class="menu-container" style="display:none;" id="menu-container">
         <div class="menu-content">
-          <button class="button"><img src="assets/icons/cancel.svg" alt="A close button for the menu" class="cancel-button"></button>
+          <button onclick="closeMobileMenu()" class="button"><img src="assets/icons/cancel.svg" alt="A close button for the menu" class="cancel-button"></button>
         <section class="grid-row">
-          <article class="grid-col white-text-reset padding-right">
+          <article class="grid-col white-text-reset padding-right text-center-tablet-only text-center-mobile-only">
             <h1 class="inline-block margin-right-small inline-block-reset-mobile-only">Our voice<br>Our community.</h1>
             <img src="assets/icons/love.svg" alt="A love heart in a speech bubble" class="inline-block hero-svg inline-block-reset-mobile-only margin-0-auto">
             <p>We have set up a list of links to help push you in the right direction to get started in community decision making. Get cracking!</p>
@@ -39,7 +39,7 @@
             <button class="btn-primary margin-right">REGISTER</button>
           </article>
         </section>
-        <section class="grid-row">
+        <section class="grid-row grid-row-reset-tablet">
           <article class="grid-col">
             <h2 class="margin-top margin-bottom-remove">Educate</h2>
             <h4 class="small-header-h4 margin-top-remove margin-bottom-small">LEVEL UP YOUR KNOWLEDGE</h4>
@@ -83,7 +83,7 @@
             <h1 class="inline-block margin-right-small inline-block-reset-mobile-only">Our voice<br>Our community.</h1>
             <img src="assets/icons/love.svg" alt="A love heart in a speech bubble" class="inline-block hero-svg inline-block-reset-mobile-only margin-0-auto">
           <h2 class="hero-h2">Empowering young people to engage in community decision making to shape a better future.</h2>
-          <button class="btn-primary margin-right">GET INVOLVED</button>
+          <button onclick="showMobileMenu()" class="btn-primary margin-right">GET INVOLVED</button>
           <button class="btn-secondary">DOWNLOAD APP</button>
         </article>
       </article>
@@ -271,7 +271,7 @@
             <h4 class="white-text-reset">BE THE CHANGE</h4>
             <p>So now you get what a big deal young people are in society. You won't just improve your lives. You will improve the lives for everyone. The world needs your unique perspective.</p>
             <p>Lets change the world.</p>
-            <button class="btn-primary margin-top margin-bottom-mobile-only margin-bottom-tablet-only">GET INVOLVED</button>
+            <button onclick="showMobileMenu()" class="btn-primary">GET INVOLVED</button>
           </article>
           <div class="grid-col grid-flex-end mobile-hide">
             <img src="assets/icons/new-world.svg" alt="A group of children protecting the planet" class="aside-text-svg-60">
