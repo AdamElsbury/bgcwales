@@ -511,5 +511,51 @@ h6 {
 
   .padding-overlap-container-below {
     padding-top: 25%; } }
+.menu-container {
+  height: 100vh;
+  max-height: 100vh;
+  padding: 5%;
+  background-color: #011627;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  overflow-y: scroll; }
+  .menu-container .button {
+    border: none;
+    background: none; }
+  .menu-container h3 {
+    font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1600 - 300)));
+    color: #FFF; }
+  .menu-container h2 {
+    color: #FFF; }
+  .menu-container h4 {
+    font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1600 - 300))); }
+  .menu-container ul {
+    list-style-type: none;
+    padding: 0; }
+  .menu-container ul > li {
+    margin-bottom: 0.5em; }
+  .menu-container li > a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: all 0.3s; }
+    .menu-container li > a:hover {
+      color: #05A8AA; }
+
+.menu-content {
+  position: relative; }
+
+.cancel-button {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
