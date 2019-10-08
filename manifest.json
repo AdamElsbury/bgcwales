@@ -3,7 +3,7 @@
     "lang": "en",
     "name": "Our voice our community | Get involved in de…",
     "scope": "./",
-    "display": "browser",
+    "display": "fullscreen",
     "start_url": "https://ovoc.netlify.com/",
     "short_name": "OVOC",
     "theme_color": "transparent",
