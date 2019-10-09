@@ -28,6 +28,60 @@
         </ul>
       </div>
 
+      <div class="download-container" style="display:none;" id="download-container">
+        <div class="download-content">
+          <button onclick="closeDownloadMenu()" class="button"><img src="assets/icons/cancel.svg" alt="A close button for the menu" class="cancel-button"></button>
+        <section class="grid-row">
+          <article class="grid-col-40 white-text-reset padding-right text-center-tablet-only text-center-mobile-only">
+            <h1 class="inline-block margin-right-small inline-block-reset-mobile-only">Our voice<br>Our community.</h1>
+            <img src="assets/icons/love.svg" alt="A love heart in a speech bubble" class="inline-block hero-svg inline-block-reset-mobile-only margin-0-auto">
+            <p>This website is also available as a Web app! You can add a shortcut to your home screen. Follow the steps below.</p>
+            <p>A prompt should appear at the bottom of your screen on mobile devices that asks you to "Add to the homepage". But you can also do it manually.</p>
+          </article>
+          <article class="grid-col">
+            <h3 class="margin-remove">Register to vote</h3>
+            <h4 class="small-header-h4 margin-top-remove margin-bottom-small">EASIEST WAY TO HELP</h4>
+            <button class="btn-primary margin-right">REGISTER</button>
+          </article>
+        </section>
+        <section class="grid-row grid-row-reset-tablet">
+          <article class="grid-col padding-right">
+            <h2 class="margin-top margin-bottom-remove">For Chrome users</h2>
+            <h4 class="small-header-h4 margin-top-remove margin-bottom-small">STEP BY STEP</h4>
+            <ul>
+              <li><p>1. Click on the three dots at the top right of your browser</p></li>
+              <li><img src="assets/img/chrome.jpg" alt="A screenshot of a Chrome address bar" class="download-menu-img"></li>
+              <li><p>2. Locate the "Add to home screen" option and tap it. (You may have to scroll a little!)</p></li>
+              <li><p>3. Follow the on screen instructions</p></li>
+              <li><p>4. The app is now installed!</p></li>
+            </ul>
+          </article>
+          <article class="grid-col padding-right">
+            <h2 class="margin-top margin-bottom-remove">For Firefox users</h2>
+            <h4 class="small-header-h4 margin-top-remove margin-bottom-small">STEP BY STEP</h4>
+            <ul>
+              <li><p>1. Click on the home icon with the "+" symbol inside on the right side</p></li>
+              <li><img src="assets/img/firefox1.jpg" alt="A screenshot of a Firefox address bar" class="download-menu-img"></li>
+              <li><p>2. The large blue prompt will appear, click on it to confirm</p></li>
+              <li><img src="assets/img/firefox2.jpg" alt="A screenshot of the add to home screen function in Firefox" class="download-menu-img"></li>
+              <li><p>3. The app is now installed!</p></li>
+            </ul>
+          </article>
+          <article class="grid-col white-text-reset padding-right">
+            <h2 class="margin-top margin-bottom-remove">For Opera users</h2>
+            <h4 class="small-header-h4 margin-top-remove margin-bottom-small">STEP BY STEP</h4>
+            <ul>
+              <li><p>1. Click on the "+" symbol on the top left of the browser window</p></li>
+              <li><img src="assets/img/opera.jpg" alt="A screenshot of the add to homescreen function in an Opera browser" class="download-menu-img"></li>
+              <li><p>2. Input your shortcut name (If left as default it will appear as OVOC)</p></li>
+              <li><p>3. The app is now installed!</p></li>
+            </ul>
+          </article>
+        </section>
+        </div>
+      </div>
+
+
       <div class="menu-container" style="display:none;" id="menu-container">
         <div class="menu-content">
           <button onclick="closeMobileMenu()" class="button"><img src="assets/icons/cancel.svg" alt="A close button for the menu" class="cancel-button"></button>
@@ -88,7 +142,7 @@
             <img src="assets/icons/love.svg" alt="A love heart in a speech bubble" class="inline-block hero-svg inline-block-reset-mobile-only margin-0-auto">
           <h2 class="hero-h2">Empowering young people to engage in community decision making to shape a better future.</h2>
           <button onclick="showMobileMenu()" class="btn-primary margin-right">GET INVOLVED</button>
-          <button class="btn-secondary">DOWNLOAD APP</button>
+          <button onclick="showDownloadMenu()" class="btn-secondary">DOWNLOAD APP</button>
         </article>
       </article>
     </header>

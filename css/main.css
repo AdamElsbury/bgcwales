@@ -136,6 +136,11 @@ header {
   height: auto;
   max-width: 30%; }
 
+.download-menu-img {
+  width: auto;
+  height: auto;
+  max-width: 70%; }
+
 .external-link-svg {
   width: auto;
   height: 0.8em; }
@@ -299,7 +304,7 @@ h2 {
 
 .hero-h2 {
   color: #FFF;
-  font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 400;
   margin: 1.5% 0 1.5% 0;
   font-family: "Lato", sans-serif;
@@ -510,7 +515,7 @@ h6 {
 
   .padding-overlap-container-below {
     padding-top: 25%; } }
-.menu-container {
+.menu-container, .download-container {
   height: 100vh;
   max-height: 100vh;
   padding: 5%;
@@ -520,33 +525,35 @@ h6 {
   right: 0;
   z-index: 2;
   overflow-y: scroll; }
-  .menu-container .button {
+  .menu-container .button, .download-container .button {
     border: none;
     background: none; }
-  .menu-container h1 {
+  .menu-container p, .download-container p {
+    color: #FFF; }
+  .menu-container h1, .download-container h1 {
     font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1600 - 300))); }
-  .menu-container h3 {
+  .menu-container h3, .download-container h3 {
     font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1600 - 300)));
     color: #FFF; }
-  .menu-container h2 {
+  .menu-container h2, .download-container h2 {
     color: #FFF; }
-  .menu-container h4 {
+  .menu-container h4, .download-container h4 {
     font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1600 - 300))); }
-  .menu-container ul {
+  .menu-container ul, .download-container ul {
     list-style-type: none;
     padding: 0; }
-  .menu-container ul > li {
+  .menu-container ul > li, .download-container ul > li {
     margin-bottom: 0.5em; }
-  .menu-container li > a {
+  .menu-container li > a, .download-container li > a {
     color: #FFF;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     transition: all 0.3s; }
-    .menu-container li > a:hover {
+    .menu-container li > a:hover, .download-container li > a:hover {
       color: #05A8AA; }
 
-.menu-content {
+.menu-content, .download-content {
   position: relative; }
 
 .cancel-button {

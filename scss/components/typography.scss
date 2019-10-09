@@ -39,7 +39,7 @@ h2 {
 
 .hero-h2 {
   color: $color-white;
-  font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 400;
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
